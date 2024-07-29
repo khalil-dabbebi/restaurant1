@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style: none ;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    background: red;
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+
+.
+/* utility classes */
+.btn-primary{
+    color: greenyellow;
+}
+
+
+header{
+    height: 100vh;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 218, 168);
+}
+#navbar img {
+width: 80 px;
+margin-left: 50px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a  {
+    padding: 15px 30px;
+color: #0f0f0f;
+font-weight: 600;
+}
+#navbar ul li a :hover{
+    border-bottom: 2px solid #e4b95b;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.content h1{
+    font-size: 40px;
+color: #141413;
+
+}
+.content p{
+    margin: 20px 0px 40px;
+    color: gold;
+}
+
+    
+
+.content.primary-texte{
+    color: black;
+}
+ body{
+    background: url('https://thumbs.dreamstime.com/b/wood-table-top-light-gold-cafe-restaurant-background-wood-table-top-light-gold-cafe-restaurant-background-selective-119380104.jpg')center center /cover no-repeat;
+ }
+ 
+ .content a{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    color:#fff;
+    background: blue;
+
+ }
+ .hh{
+    display: flex;
+    justify-content: space-between; /* Aligne les éléments avec un espace égal entre eux */
+    align-items: center;
+ }
+ .btn-primary{
+    color: #e4b95b;
+    border: 1px solid;
+ }
+
+ header * {
+    z-index: 10;
+ }
+ /*header End */
+ #about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: floralwhite
+ }
+ #about .title {
+    text-align: center;
+    margin-bottom: 4rem;
+
+ }
+#about  h2{
+    font-size: 40px;
+    color: #383848;
+    margin-bottom: 20px;
+
+}
+
+#about .title p{
+    font-size: 14px;
+    color: #e4b95b;
+    font-weight: 600;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-content img{
+    width: 450px;
+}
+ /* About start*/
+
